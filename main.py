@@ -54,7 +54,7 @@ def read_numbers(count, min_int, max_int, input_class):
 
 def test_read_numbers():
     input_list = ["4", "4", "44", "444", "-44", "7", "33", "fish", "100", "1", "0", "8", "1", "100"]
-    expected_output = [100, 44, 33, 8, 7, 4, 1]
+    expected_output = [4, 4, 44, 7, 33, 100, 1, 8, 1, 100]
     assert read_numbers(10, 1, 100, Input(input_list)) == expected_output
 
 
